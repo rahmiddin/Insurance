@@ -1,6 +1,12 @@
 # TestCase-Fastapi
 FastAPI приложение ⦁	Сервис должен посчитать стоимость страхования для запроса используя актуальный тариф.
 
+# Развертывание
+1.git clone https://github.com/rahmiddin/Insurance.git
+2.docker-compose up --build
+3.Перейти по адресу http://127.0.0.1:8000/docs
+
+
 # Возможности
 1.Добавлять тарифы на определенные материалы с помошью request JSON BODY или JSON файлом.
   Формат 
