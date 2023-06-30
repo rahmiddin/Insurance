@@ -7,8 +7,11 @@ FastAPI приложение ⦁	Сервис должен посчитать с
 2. Windows: docker-compose up --build
    Linux: sudo docker-compose up --build
 
-3.Перейти по адресу http://127.0.0.1:8000/docs
+3. cd Insurance
 
+4.Перейти по адресу http://127.0.0.1:8000/docs
+
+!! В репозитории уже есть env для запуска и подключения к бд
 
 # Возможности
 1.Добавлять тарифы на определенные материалы с помошью request JSON BODY или JSON файлом.
@@ -30,7 +33,7 @@ FastAPI приложение ⦁	Сервис должен посчитать с
 
 # Роуты
 
-      /add/                            Добавлять тарифы с помошью request query
+      /add                           Добавлять тарифы с помошью request query
       /add/by_file                     Добавлять тарифы с помошью JSON FILE
       /calculate_insurance            Посчитать стоимость страхования 
 
@@ -38,6 +41,8 @@ FastAPI приложение ⦁	Сервис должен посчитать с
 
   FastAPI
   TortoiseORM
+  Docker
+  doker-compose
   asyncpg
   
 
