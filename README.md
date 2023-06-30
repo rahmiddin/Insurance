@@ -4,10 +4,10 @@ FastAPI приложение ⦁	Сервис должен посчитать с
 # Развертывание
 1.git clone https://github.com/rahmiddin/Insurance.git
 
-2. Windows: docker-compose up --build
+2.Windows: docker-compose up --build
    Linux: sudo docker-compose up --build
 
-3. cd Insurance
+3.cd Insurance
 
 4.Перейти по адресу http://127.0.0.1:8000/docs
 
