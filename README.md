@@ -5,6 +5,7 @@ FastAPI приложение ⦁	Сервис должен посчитать с
 1.git clone https://github.com/rahmiddin/Insurance.git
 
 2.Windows: docker-compose up --build
+   
    Linux: sudo docker-compose up --build
 
 3.cd Insurance
